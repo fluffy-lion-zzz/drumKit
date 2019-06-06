@@ -17,17 +17,33 @@ clapA.addEventListener('click', ()=>{
     clap.play();
 })
 
-const clapAKey = document.body('.key')
+const clapAKey = document.body
 
-
-clapAKey.addEventListener('keydown', (a)=>{
-    a=clap.play();
-    
+clapAKey.addEventListener('keypress', () => {
+    if (event.code =="KeyA") {
+        clap.play()
+    } else if (event.code =="KeyS") {
+        hihat.play()
+    } else if (event.code =="KeyD") {
+        kick.play()
+    } else if (event.code =="KeyF") {
+        openHat.play()
+    } else if (event.code =="KeyG") {
+        boom.play()
+    } else if (event.code =="KeyH") {
+        ride.play()
+    } else if (event.code =="KeyJ") {
+        snare.play()
+    } else if (event.code =="KeyK") {
+        tom.play()
+    } else if (event.code =="KeyL"){
+        tink.play()
+    } else {
+        return false
+    }
 })
 
-// const clapAKey = () => {
 
-// }
 
 
 
