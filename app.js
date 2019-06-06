@@ -1,5 +1,5 @@
 
-const clap = new Audio('sounds/snare.wav');
+const clap = new Audio('sounds/clap.wav');
 const hihat = new Audio('sounds/hihat.wav');
 const kick = new Audio('sounds/kick.wav');
 const openHat = new Audio('sounds/openhat.wav');
@@ -15,8 +15,14 @@ const clapA = document.getElementById("clapA");
 
 clapA.addEventListener('click', ()=>{
     clap.play();
+})
+
+const clapAKey = document.body('.key')
 
 
+clapAKey.addEventListener('keydown', (a)=>{
+    a=clap.play();
+    
 })
 
 // const clapAKey = () => {
