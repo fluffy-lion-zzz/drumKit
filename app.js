@@ -15,7 +15,13 @@ const clapA = document.getElementById("clapA");
 
 clapA.addEventListener('click', ()=>{
     clap.play();
+
+
 })
+
+// const clapAKey = () => {
+
+// }
 
 
 
