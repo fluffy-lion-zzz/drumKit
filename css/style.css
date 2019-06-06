@@ -1,0 +1,11 @@
+#keys {
+    display: flex;
+    background-color: aquamarine;
+}
+
+.inputBoxes {
+    border-style: dashed;
+    border-width: 5px;
+    border-color: blueviolet;
+    
+}
