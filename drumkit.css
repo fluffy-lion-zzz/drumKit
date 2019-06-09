@@ -2,26 +2,43 @@ body {
     
 height: 100%;
 width: 100%;  
+background-image: url('retroDesignCup.jpg');
+font-family: 'Permanent Marker';
+
+}
+
+#title{
+    color: rgb(63, 163, 163);
+    text-shadow: 5px 5px black;
+    
+    font-size: 150px;
+    text-align: center;
 
 }
 
 .board {
     display: flex;
-    justify-content: space-between;
+    margin: auto;
+    width: 100%;
 }
 #keys {
     
     display: flex;
-
+    margin: auto;
+    margin-top: 0px;
     background-color: aquamarine;
-   
-    
-    
+    justify-items: space-between;
+
 }
 
 .inputBoxes {
     border-style: dashed;
     border-width: 5px;
     border-color: blueviolet;
+    background-color: coral;
+    padding: 20px;
+    width: 40px;
+    height: 60px;
+    margin: 10px;
     
 }

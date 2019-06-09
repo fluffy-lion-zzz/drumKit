@@ -11,28 +11,28 @@ const tink = new Audio('sounds/tink.wav');
 
 // Play drum by keyboard press
 
-board.onkeyup.
+// board.onkeyup.
 const clapAKey = document.body
 
 clapAKey.addEventListener('keypress', (board) => {
     if (event.code =="KeyA") {
-        clap.play()
+        clap.load(), clap.play()
     } else if (event.code =="KeyS") {
-        hihat.play()
+        hihat.load(), hihat.play()
     } else if (event.code =="KeyD") {
-        kick.play()
+        kick.load(), kick.play()
     } else if (event.code =="KeyF") {
-        openHat.play()
+        openHat.load(), openHat.play()
     } else if (event.code =="KeyG") {
-        boom.play()
+        boom.load(), boom.play()
     } else if (event.code =="KeyH") {
-        ride.play()
+        ride.load(), ride.play()
     } else if (event.code =="KeyJ") {
-        snare.play()
+        snare.load(), snare.play()
     } else if (event.code =="KeyK") {
-        tom.play()
+        tom.load(),tom.play()
     } else if (event.code =="KeyL"){
-        tink.play()
+        tink.load(), tink.play()
     } else {
         return false
     }
