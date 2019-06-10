@@ -26,8 +26,9 @@ font-family: 'Permanent Marker';
     display: flex;
     margin: auto;
     margin-top: 0px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     justify-items: space-between;
+    height: 80px;
 
 }
 
@@ -38,7 +39,7 @@ font-family: 'Permanent Marker';
     background-color: coral;
     padding: 20px;
     width: 40px;
-    height: 60px;
+    height: 90px;
     margin: 10px;
     
 }
