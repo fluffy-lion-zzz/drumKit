@@ -1,7 +1,7 @@
 body {
-    
+    margin: auto;
 height: 100%;
-width: 100%;  
+width: 375px;  
 background-image: url('retroDesignCup.jpg');
 font-family: 'Permanent Marker';
 
@@ -11,35 +11,99 @@ font-family: 'Permanent Marker';
     color: rgb(63, 163, 163);
     text-shadow: 5px 5px black;
     
-    font-size: 150px;
+    font-size: 120px;
     text-align: center;
 
 }
 
-.board {
-    display: flex;
-    margin: auto;
-    width: 100%;
-}
-#keys {
+    .board {
+      
+        width: 100%;
     
-    display: flex;
-    margin: auto;
-    margin-top: 0px;
-    /* background-color: aquamarine; */
-    justify-items: space-between;
-    height: 80px;
+    }
+        #keys {
+            
+           
+            margin-top: 0px;
+            /* background-color: aquamarine; */
 
-}
+            height: 80px;
+            display: grid;
+            padding: 50px;
+            grid-template-columns: 10% 30% 30% 30% 10%;
+            grid-template-rows: 100px 100px 100px;
 
+        }
+
+            #clapA{
+                grid-column: 2 / 3;
+                grid-row: 1 / 2;
+                justify-self: center;
+                align-self: center;
+            }
+            #hiHatS{
+                grid-column: 3 / 4;
+                grid-row: 1 / 2;
+                justify-self: center;
+                align-self: center;
+            }
+
+            #kickD {
+                grid-column: 4 / 5;
+                grid-row: 1 / 2;
+                justify-self: center;
+                align-self: center;
+            }
+
+            #openHatF{
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+                justify-self: center;
+                align-self: center;
+            }
+
+            #boomG{
+                grid-column: 3 / 4;
+                grid-row: 2 / 3;
+                justify-self: center;
+                align-self: center;
+            }
+
+            #rideH{
+                grid-column: 4 / 5;
+                grid-row: 2 / 3;
+                justify-self: center;
+                align-self: center;
+            }
+
+            #snareJ{
+                grid-column: 2 / 3;
+                grid-row: 3 / 4;
+                justify-self: center;
+                align-self: center;
+            }
+
+            #tomK{
+                grid-column: 3 / 4;
+                grid-row: 3 / 4;
+                justify-self: center;
+                align-self: center;
+            }
+
+            #tinkL{
+                grid-column: 4 / 5;
+                grid-row: 3 / 4;
+                justify-self: center;
+                align-self: center;
+            }
 .inputBoxes {
     border-style: dashed;
-    border-width: 5px;
+    border-width: 4px;
     border-color: blueviolet;
     background-color: coral;
-    padding: 20px;
-    width: 40px;
-    height: 90px;
-    margin: 10px;
-    
+    text-align: start;
+   
+    width: 50%;
+    height: 85%;
+    text-align: center;
 }
